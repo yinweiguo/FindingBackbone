@@ -1,0 +1,43 @@
+# inputfile for program network
+
+# filenames for output, error and datafiles
+# special filename: screenoutput
+
+FILENAMES
+data1.dat
+data2.dat
+outputfile.out
+debugfile.out
+
+# Seeds for the random generator
+
+SEEDS
+   5929
+   6949
+   4289
+   2681
+
+# Boundary conditions in the vertical direction can be specified as
+# 'periodic' or 'open'
+#
+#BOUNDARY CONDITIONS
+#   open
+
+# The type of percolation can be 'bond' or 'site'.
+
+TYPE OF PERCOLATION
+   bond
+
+PROBABILITY
+   0.5
+
+# Nsample is the number of random samples,
+# perfect for parallel computing yet to be implemented.
+
+VOLUME OF SAMPLES
+  10
+
+DEBUG
+  1
+
+END OF INPUTFILE
