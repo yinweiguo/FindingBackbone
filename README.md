@@ -13,3 +13,6 @@ Usage:
 * make new
 * To change the number of samples, edit the VOLUME OF SAMPLES entry in input.dat
 * Run the binary `fb'
+
+Additional Note:
+Unverified, site-percolation.zip contains the codes for Ref. [2] only.
